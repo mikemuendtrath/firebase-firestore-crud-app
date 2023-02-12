@@ -1,10 +1,7 @@
 # firebase-firestore-crud-app
 Simple CRUD application focused on interacting with firebase
 
-## Setup Node.js backend
-Soon
-## Setup React frontend
-Soon
+
 ## Firebase firestore operations
 Create a new record:
 ```javascript
