@@ -1,0 +1,150 @@
+body{
+  margin: auto;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: large;
+}
+
+.App{
+  background-color: #A8D1D1;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+.App input{
+  background-color: transparent;
+  border: 0px solid;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+
+.CRUD{
+  background-color: transparent;
+  height: 40vh;
+  width: 65vh;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: large;
+
+}
+
+.CRUD-create{
+  background-color: #F9F5E7;
+  height: 10%;
+  width: 100%;
+  box-shadow: 0px 0px 20px 1px #a2a2a2;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: x-large;
+}
+.CRUD-create input{
+  height: 100%;
+  width: 80%;
+  background-color: transparent;
+  border: 0px solid;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: x-large;
+}
+
+.CRUD-create button{
+  height: 100%;
+  width: 19%;
+  background-color: transparent;
+  border: 0px solid;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: x-large;
+}
+
+
+
+
+.CRUD-read{
+  background-color: #F9F5E7;
+  height: 60%;
+  width: 100%;
+  margin-top: 1cm;
+  box-shadow: 0px 0px 20px 1px #a2a2a2;
+  overflow-y: scroll;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: x-large;
+
+}
+.CRUD-updateHeader{
+  margin-top: 1cm;
+  margin-bottom: 0px;
+  font-size: x-large;
+}
+#CRUD-wrapper{
+  display: none;
+}
+
+
+
+.CRUD-update{
+  background-color: #F9F5E7;
+  height: 10%;
+  width: 100%;
+  box-shadow: 0px 0px 20px 1px #a2a2a2;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: x-large;
+}
+.CRUD-update input{
+  height: 100%;
+  width: 80%;
+  background-color: transparent;
+  border: 0px solid;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: x-large;
+}
+
+.CRUD-update button{
+  height: 100%;
+  width: 19%;
+  background-color: transparent;
+  border: 0px solid;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: x-large;
+}
+
+.CRUD-item{
+  background-color: transparent;
+  border-bottom: 1px solid #9EA1D4;
+  display: flex;
+  align-items: center;
+  height: 20%;
+  font-family: 'Nanum Pen Script', cursive;
+}
+.CRUD-item:hover{
+  background-color: #F1F7B5;
+}
+.CRUD-itemText{
+  background-color: transparent;
+  height: 100%;
+  width: 50%;
+  float: left;
+  display: inline-flex;
+  align-items: center;
+}
+.CRUD-itemText span{
+  margin-left: 1cm;
+}
+
+.CRUD-itemIcons{
+  background-color: transparent;
+  height: 100%;
+  width: 12%;
+  float: right;
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  
+}
+
+.CRUD-itemIcons span:hover{
+  cursor: pointer;
+ }
+
+.CRUD-item button{
+ margin-left: 100%;
+}
